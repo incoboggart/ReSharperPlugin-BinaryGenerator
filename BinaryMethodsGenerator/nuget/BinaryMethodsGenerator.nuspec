@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BinaryMethodsGenerator</id>
+    <version>1.0.5</version>
+    <title>Custom serialization Generator</title>
+    <authors>0boggart0</authors>
+    <owners>0boggart0</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://dl.dropboxusercontent.com/u/67116875/ReSharperPlugins/icon-binary.png</iconUrl>
+    <description>Generates custom binary serialization methods.</description>
+    <releaseNotes>Added private fields and properties support</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Resharper" version="[8.2,8.3)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Debug\BinaryMethodsGenerator.dll" target="ReSharper\v8.2\plugins"/>
+    <file src="..\bin\Debug\BinaryMethodsGenerator.pdb" target="ReSharper\v8.2\plugins"/>
+  </files>
+</package>
